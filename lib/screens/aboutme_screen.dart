@@ -1,3 +1,5 @@
+import 'package:about_me_3d/screens/video_portfolio_screen_extended.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -147,6 +149,18 @@ class AboutMeScreen extends StatelessWidget {
                         }
                       },
                       child: const FaIcon(FontAwesomeIcons.phone),
+                    ),
+                    const SizedBox(
+                      width: 8,
+                    ),
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            CupertinoPageRoute(
+                                builder: (_) => const VideoPortfolioScreen()));
+                      },
+                      child: const FaIcon(FontAwesomeIcons.video),
                     ),
                   ],
                 ),

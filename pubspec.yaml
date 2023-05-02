@@ -28,12 +28,14 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  chewie: ^1.4.0
   cupertino_icons: ^1.0.2
   flutter:
     sdk: flutter
   font_awesome_flutter: ^10.4.0
   google_fonts: ^4.0.3
   url_launcher: ^6.1.10
+  video_player: ^2.6.1
 
 dev_dependencies:
   flutter_lints: ^2.0.0
